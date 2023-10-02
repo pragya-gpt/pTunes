@@ -1,0 +1,243 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: black;
+}
+
+.navbar
+{
+    height: 3vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    font-family: 'Pacifico', cursive;}
+
+#logo
+{
+    background-image: url("logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+#brand
+{
+    padding-left: 10px;
+    padding-right: 900px;
+    font-weight: 800;
+}
+
+.optionLink
+{
+    padding: 20px;
+    text-decoration: none;
+}
+
+.container
+{
+    min-height: 78vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    margin: 20px auto;
+    width: 75%;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.bottom
+{
+    position: sticky;
+    background-color: black;
+    height: 6vh;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#progressBar
+{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.backward
+{
+    background-image: url("backward.png");
+    background-size: cover;
+    height: 17px;
+    width: 17px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.play
+{
+    background-image: url("play.png");
+    background-size: cover;
+    height: 17px;
+    width: 17px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.pause
+{
+    background-image: url("pause.png");
+    background-size: cover;
+    height: 17px;
+    width: 17px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.forward
+{
+    background-image: url("forward.png");
+    background-size: cover;
+    height: 17px;
+    width: 17px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.icons
+{
+    display: flex;
+    justify-content: center;
+}
+
+.coverImage
+{
+    height: 30px;
+    width: 30px;
+    margin: 0px 23px;
+    border-radius: 50px;
+}
+
+.songItem
+{
+    height: 5vh;
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 30%;
+    margin: 12px 0px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding-right: 23px;
+}
+
+.songList
+{
+    padding-top: 20px;
+}
+
+.songInfo
+{
+    position: absolute;
+    left: 10vw;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.songInfo img
+{
+    margin-right: 15px;
+    height: 20px;
+    width: 30px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+#footBox
+{
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(185, 203, 214);
+    position: inherit;
+    bottom: 0px;
+}
+
+#ig, #fb, #x, #yt
+{
+    height: 30px;
+    width: 30px;
+    margin: 30px;
+}
+
+#ig:hover
+{
+    height: 35px;
+    width: 35px;
+}
+
+#x:hover
+{
+    height: 35px;
+    width: 35px;
+}
+
+#fb:hover
+{
+    height: 35px;
+    width: 35px;
+}
+
+#yt:hover
+{
+    height: 35px;
+    width: 35px;
+}
+
+#iconBox
+{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    height: 100px;
+}
+
+#ig
+{
+    background-image: url("ig.png");
+    background-size: cover;
+}
+
+#x
+{
+    background-image: url("x.png");
+    background-size: cover;
+}
+
+#yt
+{
+    background-image: url("yt.png");
+    background-size: cover;
+}
+
+#fb
+{
+    background-image: url("fb.png");
+    background-size: cover;
+}
+
+#devBox
+{
+    font-family: lucida handwriting;
+    display: flex;
+    justify-content: center;
+}
